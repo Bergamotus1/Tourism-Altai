@@ -24,13 +24,9 @@ body {
     z-index: 100;
 }
 
-
-/*.image{background: url('horse.jpg') no-repeat center;}*/
-
-
 .logo{
     font-size: 25px;
-    color: darkslategrey;
+    color: lightgoldenrodyellow;
     text-decoration: none;
     font-weight: 600;
 }
@@ -44,12 +40,16 @@ body {
     margin-left: 40px;
     transition: .3s;
 }
+
 .navbar a:hover,
 .navbar a.active {
     color: darkslategrey;
 }
 
 .maine {
+    background: url('./horse2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -65,6 +65,7 @@ body {
     color: #ededed;
     max-width: 500px;
 }
+
 .maine-content p {
     font-size:25px;
     font-weight: 500;
@@ -72,6 +73,7 @@ body {
     max-width: 700px;
     margin: 20px 0 40px;
 }
+
 .maine-content .btn-box {
     display: flex;
     justify-content: space-between;
@@ -97,6 +99,7 @@ body {
     overflow: hidden;
     transition: .5s;
 }
+
 .btn-box a:nth-child(2) {
     background: transparent;
 }
@@ -106,7 +109,6 @@ body {
 .btn-box a:nth-child(1):hover {
     color: darkcyan;
 }
-
 .btn-box a:nth-child(2)::before {
     background: #00abf0;
 }
@@ -125,3 +127,31 @@ body {
 .btn-box a:hover::before {
     width: 100%;
 }
+
+.home-sci {
+    position: absolute;
+    left: 20px;
+    bottom: 400px;
+    width: 40px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 50px;
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+
