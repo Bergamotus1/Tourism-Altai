@@ -171,6 +171,23 @@ body {
     color: lightgoldenrodyellow;
     text-decoration: none;
 }
+.home-sci-play p {
+    position: absolute;
+    color: lightgoldenrodyellow;
+    top:450px;
+    right: 95px;
+    text-align: center;
+    width: 70px;
+    font-size: 18px;
+}
+
+.home-sci-play i{
+    position: absolute;
+    right: 20px;
+    top: 450px;
+    color: lightgoldenrodyellow;
+    font-size: 50px;
+}
 
 
 
