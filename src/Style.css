@@ -60,29 +60,38 @@ body {
     background: url('./osen.jpg') no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
+    /*align-items: center;*/
+    /*flex-direction: row-reverse;*/
     text-align: center;
     height: 100vh;
     padding: 0 5%;
 }
 
 .maine-content h1 {
+    position: absolute;
     font-size: 40px;
     font-weight: 600;
     color: burlywood;
     max-width: 500px;
+    right: 700px;
+    top: 150px;
 }
 
 .maine-content p {
+    position: absolute;
+    right: 480px;
+    bottom: 30px;
     font-size:25px;
     font-weight: 500;
     color: #ededed;
-    max-width: 700px;
+    max-width: 900px;
     margin: 20px 0 40px;
 }
 
 .maine-content .btn-box {
+    position: absolute;
+    bottom: 250px;
+    right: 800px;
     display: flex;
     justify-content: space-between;
     width: 345px;
